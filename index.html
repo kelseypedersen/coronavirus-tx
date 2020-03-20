@@ -25,7 +25,8 @@
               ['Mar 12', 0, 0],
               ['Mar 14', 3, 0],
               ['Mar 16', 5, 0],
-              ['Mar 18', 23, 0]
+              ['Mar 18', 23, 0],
+              ['Mar 20', 41, 0],
         ]);
 
         var options = {
@@ -49,6 +50,7 @@
 
           var data = google.visualization.arrayToDataTable([
             ['City', 'Day-over-Day Case Growth %', {type: 'string', role: 'annotation'}],
+            ['Mar 20', 78, '+78%'], // 41-23/23
             ['Mar 18', 360, '+360%'], // 23-5/5
             ['Mar 16', 66, '+66%'], // 5-3/3
           ]);
